@@ -37,7 +37,7 @@ public record HexSettings(double biomeScale, double hexSize, double hexBorderThr
 
     static
     {
-        register("overworld", new HexSettings(32d, 40d, 0.92d, Optional.empty(), BorderSettings.of(62, 66, Blocks.STONE_BRICKS)));
+        register("overworld", new HexSettings(32d, 80d, 0.96d, Optional.empty(), BorderSettings.of(62, 66, Blocks.STONE_BRICKS)));
         register("nether", new HexSettings(4d, 40d, 0.92d, BorderSettings.of(100, 110, Blocks.NETHER_BRICKS), BorderSettings.of(31, 40, Blocks.NETHER_BRICKS)));
         register("the_end", new HexSettings(4d, 40d, 0.92d, Optional.empty(), Optional.empty()));
     }
